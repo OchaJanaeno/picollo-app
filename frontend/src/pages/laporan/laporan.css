@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 10vh;
+  padding: 0 1rem;
+  background-color: rgba(32, 40, 110, 0.774);
+  color:white;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  min-height : 85vh;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  height : 5vh;
+  background-color: rgba(32, 40, 110, 0.774);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
